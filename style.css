@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #3a70b1;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.form{
+    width: 500px;
+    border: 2px solid #fff;
+    padding: 15px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.header input{
+    width: 800%;
+    height: 30px;
+    font-size: 18px;
+}
+
+.header button{
+    width: 20%;
+}
+
+.todoBlock{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.action button{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    text-align: center;
+
+}
+
+.change{
+ background-color: #e88f15;
+ color: #fff;
+}
+
+.delete{
+    background-color: #6e3a8c;
+    color: #fff;
+}
